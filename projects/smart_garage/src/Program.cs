@@ -1,2 +1,2 @@
-var controller = SmartGarageFactory.Create(); // 生成
-controller.Run();                              // 実行
+var controller = SmartGarageFactory.Create(); // スマートガレージ制御システムを構築する
+controller.Run();                              // ガレージ制御を開始する
