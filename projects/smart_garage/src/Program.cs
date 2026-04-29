@@ -1,1 +1,2 @@
-SmartGarageFactory.Create().Run();
+var controller = SmartGarageFactory.Create();
+controller.Run();
