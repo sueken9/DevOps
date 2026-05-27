@@ -1,7 +1,7 @@
-namespace SmartGarage.Domain.Transform;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Domain.Transform;
 
 // MT: ガレージ動作を判断する（P4対応）
 public class GarageOperationJudge

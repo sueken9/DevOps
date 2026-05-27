@@ -1,7 +1,7 @@
-namespace SmartGarage.Domain.Source;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Domain.Source;
 
 // M3: 緊急停止有無を取得する（P3対応）
 public class EmergencyStopDetector

@@ -1,8 +1,8 @@
-namespace SmartGarage.App;
-
 using SmartGarage.Domain.Source;
 using SmartGarage.Domain.Transform;
 using SmartGarage.Domain.Sink;
+
+namespace SmartGarage.App;
 
 // M0: スマートガレージ制御（エントリーポイント）
 public class SmartGarageController

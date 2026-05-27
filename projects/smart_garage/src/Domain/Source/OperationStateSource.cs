@@ -1,6 +1,6 @@
-namespace SmartGarage.Domain.Source;
-
 using SmartGarage.Domain.Models;
+
+namespace SmartGarage.Domain.Source;
 
 // MS: 操作状態を取得する（Sourceグループ）
 public class OperationStateSource

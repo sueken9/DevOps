@@ -1,7 +1,7 @@
-namespace SmartGarage.Domain.Source;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Domain.Source;
 
 // M2: 開閉モードを取得する（P2対応）
 public class OpenCloseModeAcquirer

@@ -1,6 +1,6 @@
-namespace SmartGarage.Domain.Sink;
-
 using SmartGarage.Domain.Models;
+
+namespace SmartGarage.Domain.Sink;
 
 // MK: ガレージを動作させる（Sinkグループ）
 public class GarageOperationSink

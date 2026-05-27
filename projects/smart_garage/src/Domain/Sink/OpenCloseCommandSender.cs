@@ -1,7 +1,7 @@
-namespace SmartGarage.Domain.Sink;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Domain.Sink;
 
 // M5: 開閉指示を送る（P5対応）
 public class OpenCloseCommandSender

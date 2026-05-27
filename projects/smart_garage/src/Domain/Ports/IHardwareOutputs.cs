@@ -1,6 +1,6 @@
-namespace SmartGarage.Domain.Ports;
-
 using SmartGarage.Domain.Models;
+
+namespace SmartGarage.Domain.Ports;
 
 public interface IGarageMotor
 {

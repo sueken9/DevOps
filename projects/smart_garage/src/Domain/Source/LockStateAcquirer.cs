@@ -1,7 +1,7 @@
-namespace SmartGarage.Domain.Source;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Domain.Source;
 
 // M1: ロック装置状態を取得する（P1対応）
 public class LockStateAcquirer

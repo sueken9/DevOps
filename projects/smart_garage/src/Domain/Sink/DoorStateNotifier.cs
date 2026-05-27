@@ -1,7 +1,7 @@
-namespace SmartGarage.Domain.Sink;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Domain.Sink;
 
 // M6: 扉状態を通知する（P6対応）
 public class DoorStateNotifier

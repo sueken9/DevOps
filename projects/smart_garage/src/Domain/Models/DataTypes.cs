@@ -1,5 +1,4 @@
 namespace SmartGarage.Domain.Models;
-
 // 操作許可有無
 public enum OperationPermission { Lock, Release }
 

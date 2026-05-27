@@ -1,7 +1,7 @@
-namespace SmartGarage.Infrastructure;
-
 using SmartGarage.Domain.Models;
 using SmartGarage.Domain.Ports;
+
+namespace SmartGarage.Infrastructure;
 
 public class GarageMotorAdapter : IGarageMotor
 {
