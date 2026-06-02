@@ -1,3 +1,5 @@
+using SmartGarage.Admin;
+
 // スマートガレージ制御システムを構築する
 var controller = SmartGarageFactory.Create();
 

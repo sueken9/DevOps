@@ -1,10 +1,11 @@
+using SmartGarage.Application;
 using SmartGarage.Domain.Ports;
 using SmartGarage.Domain.Sink;
 using SmartGarage.Domain.Source;
 using SmartGarage.Domain.Transform;
 using SmartGarage.Infrastructure;
 
-namespace SmartGarage.App;
+namespace SmartGarage.Admin;
 
 public static class SmartGarageFactory
 {
