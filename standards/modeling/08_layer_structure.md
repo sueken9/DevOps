@@ -55,6 +55,21 @@ Safety層はApplicationを経由せず、Infrastructureへ直通する。
 
 Adminが起動処理で詰まっていても、Safetyは確実に動作する。
 
+## Presentation層と状態管理
+
+PresentationはApplicationの状態を映すだけ。画面遷移の判断もPresentation層が自律的に行う。
+
+```
+Presentation → Application（ユーザー操作を通知）
+Application  → Presentation（状態を返す）
+Presentation → 状態から自律的に画面を決定・遷移
+```
+
+ApplicationはPresentation（画面）を知らない。状態を返すだけ。
+Presentationは状態から画面への変換責任を持つ。
+
+これにより依存は一方向のままになる。「画面」と「状態」の二重管理も発生しない。
+
 ## 設定値の扱い
 
 設定値はInfrastructureが担う。DBの値と責務が同一（外部に永続化されたデータの読み書き）であるため。
