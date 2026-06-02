@@ -8,7 +8,7 @@
 コードを書く前に、言葉の意味を明確にする。
 曖昧な言葉からは曖昧な設計しか生まれない。
 
-## principlesドキュメントの書き方
+## standardsドキュメントの書き方
 
 - **WHATで書く。HOWで書かない。**
   - ルール・定義・事実を記述する
@@ -17,7 +17,7 @@
 ## 開発の進め方
 
 構造化設計を基本とし、以下のフローで進める。
-詳細は `principles/modeling/development_flow.md` を参照。
+詳細は `standards/modeling/development_flow.md` を参照。
 
 ```
 要件定義 → コンテキストダイアグラム → データ辞書
@@ -29,9 +29,9 @@
 コンテキストダイアグラム・データ辞書・イベントリストは常に整合していなければならない。
 **いずれかを編集したら、編集完了前に残り2つの整合を確認・更新する。**
 
-## principlesの場所
+## standardsの場所
 
-`principles/modeling/` 配下に設計原則をカテゴリ別に蓄積する。
+`standards/modeling/` 配下に設計原則をカテゴリ別に蓄積する。
 - `context_diagram.md` — コンテキストダイアグラムの原則
 - `data_dictionary.md` — データ辞書の原則
 - `event_list.md` — イベントリストの原則
